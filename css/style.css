@@ -29,7 +29,7 @@
 }
   
 #item-selected {
-    background-color: red;
+    background-color: black;
 }
 
 .main-container{
@@ -61,3 +61,87 @@
 .main-container section div{
     display: flex;
   flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    border: black 2px solid;
+}
+
+.form-container h1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-container form {
+    border: black 2px solid
+}
+
+.form-container form label {
+    padding: 30px;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border: black 2px solid;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-event {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#dest1 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: black 2px solid;
+    width: 500px;
+}
+
+#dest1 img {
+    width: 200px;
+    height: 250px;
+}
+
+#dest2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: purple 2px solid;
+}
+
+#dest2 img {
+    width: 200px;
+    height: 250px;
+}
+
+#dest3 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: red 2px solid;
+    width: 500px;
+}
+
+#dest3 img {
+    width: 200px;
+    height: 250px;
+}
+
+#um {
+    text-align: center;
+    color: blue;
+}
