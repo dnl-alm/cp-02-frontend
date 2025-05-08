@@ -1,0 +1,17 @@
+.main-container{
+    display: flex;
+  justify-content: center;
+}
+
+.main-container section{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border: #00bfff 2px solid;
+    padding: 15px;
+}
+
+.main-container section div{
+    display: flex;
+  flex-direction: column;
+}
