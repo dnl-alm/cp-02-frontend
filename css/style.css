@@ -1,3 +1,33 @@
 .nav-container {
-    
+    background-color: red;
+    padding: 15px;
+    border-bottom: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.nav-container ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+.nav-container ul li {
+    list-style: none;
+    border: black 2px solid;
+    padding: 15px;
+}
+  
+.nav-container ul li:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: white;
+}
+  
+#item-selected {
+    background-color: red;
 }
